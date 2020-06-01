@@ -3,7 +3,7 @@
 {
 var user;
      AJS.$.ajax({
-        url: "https://bass.netcracker.com/rest/api/user/current",
+        url: "/rest/api/user/current",
         type: 'get',
         dataType: 'json',
         async: false,
